@@ -8,7 +8,6 @@ import { NavComponent } from './component/nav/nav.component';
 import { ContentsComponent } from './component/contents/contents.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { AlimentosComponent } from './component/alimentos/alimentos.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -21,8 +20,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    FontAwesomeModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
